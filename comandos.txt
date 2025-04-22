@@ -1,0 +1,10 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init
+git config user.email "pabloeltdev@proton.me"
+git config user.name "Pablo E. L. Targino"
+notepad id.txt
+git add id.txt
+git commit -m "primeiro commit"
+git remote add origin git@github.com:pabloeltdev/curso-git-embarcatech.git
+git push -u origin main
